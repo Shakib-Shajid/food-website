@@ -1,13 +1,28 @@
-import Image from "next/image";
+import { FiArrowUpRight } from "react-icons/fi";
+import Banner from "./components/Banner";
 import Homepage from "./components/Homepage";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center ">
-      <div className="flex gap-2">
-        <Image src="/burger.png" className="hover:scale-95 translate-transform duration-500" alt="" width="700" height="700" />
-        <Homepage />
+    <main className="flex items-center ">
+
+      <div className="flex flex-nowrap ">
+        <section className="flex-none w-screen ">
+          <div className="flex gap-2">
+            <Banner />
+            <Homepage />
+          </div>
+
+
+        </section>
+
+        <section className="flex-none w-screen bg-red-500">Section 2</section>
+        <section className="flex-none w-screen bg-blue-500">Section 3</section>
       </div>
+
+
+
     </main>
   );
 }
