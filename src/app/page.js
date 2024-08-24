@@ -1,7 +1,5 @@
-import { FiArrowUpRight } from "react-icons/fi";
 import Banner from "./components/Banner";
 import Homepage from "./components/Homepage";
-import Image from "next/image";
 
 export default function Home() {
   return (
