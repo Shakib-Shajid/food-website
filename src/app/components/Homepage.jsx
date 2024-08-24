@@ -11,9 +11,9 @@ const Homepage = () => {
     const mouseLeave = () => { setIsHover(false) }
 
     return (
-        <div className="relative" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+        <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className="h-20">
             {
-                isHover ? <div>
+                isHover ? <div className="border border-red-600 relative">
                     <Image src="/fire.gif" width="30" height="30" alt="" className="absolute -top-5 " />
                     <Image src="/fire.gif" width="30" height="30" alt="" className="absolute bottom-4 left-[102px]" />
                     <Image src="/fire.gif" width="30" height="30" alt="" className="absolute -top-2 left-[170px]" />
