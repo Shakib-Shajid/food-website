@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import GrabButton from "./components/GrabButton";
 import Homepage from "./components/Homepage";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
           <div className="flex gap-2">
             <Banner />
             <Homepage />
+            <GrabButton />
           </div>
 
 
