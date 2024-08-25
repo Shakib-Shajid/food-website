@@ -121,6 +121,26 @@ const Fvideo = () => {
                 ></video>
 
 
+                {/* .................................................................... */}
+                <div
+                    className="relative bottom-[72px] left-0 w-[110%] bg-white overflow-hidden"
+                    style={{
+                        transform: 'rotate(10deg)',
+                        // transformOrigin: 'top left',  // Adjust transform origin
+                        marginLeft: '-5%',
+                    }}
+                >
+                    <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
+                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                        {/* Repeat the content to ensure continuous scrolling */}
+                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                    </div>
+                </div>
+
+                {/* .................................................................... */}
+
             </div>
 
             {/* third video container */}
