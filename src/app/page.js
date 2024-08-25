@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+// import Fvideo from "./components/fVideo";
 import GrabButton from "./components/GrabButton";
 import Homepage from "./components/Homepage";
 
@@ -12,6 +13,7 @@ export default function Home() {
             <Banner />
             <Homepage />
             <GrabButton />
+            {/* <Fvideo /> */}
           </div>
 
 
@@ -26,5 +28,4 @@ export default function Home() {
     </main>
   );
 }
-
 

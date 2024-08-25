@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { TfiWorld } from "react-icons/tfi";
 import { FiArrowUpRight } from "react-icons/fi";
+import Fvideo from "./fVideo";
 
 const Homepage = () => {
 
@@ -39,6 +40,8 @@ const Homepage = () => {
 
 
             </div>
+
+            <Fvideo />
 
 
 

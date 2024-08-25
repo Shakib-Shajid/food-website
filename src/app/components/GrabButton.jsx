@@ -14,7 +14,7 @@ const DraggableButton = () => {
           const buttonWidth = buttonRef.current.offsetWidth;
           const buttonHeight = buttonRef.current.offsetHeight;
           //   window.innerWidth 
-          const centerX = 1100 / 2 - buttonWidth / 2;
+          const centerX = 950 / 2 - buttonWidth / 2;
           const centerY = 900 / 3 - buttonHeight / 2;
         //   window.innerHeight
           setPosition({ x: centerX, y: centerY });
@@ -64,7 +64,12 @@ const DraggableButton = () => {
         <div
             ref={buttonRef}
             onMouseDown={handleMouseDown}
-            style={{ left: `${position.x}px`, top: `${position.y}px`, position: 'absolute' }}
+            style={{
+                left: `${position.x}px`,
+                top: `${position.y}px`,
+                position: 'absolute',
+                cursor: isDragging ? 'grabbing' : 'grab', // Direct CSS style for the cursor
+              }}
             className={`cursor-${isDragging ? 'grabbing' : 'grab'} bg-black text-red-600 text-5xl rounded-xl font-bold py-2 px-4 shadow-lg -rotate-[24deg]`}
         >
             VICIO

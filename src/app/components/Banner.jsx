@@ -7,7 +7,7 @@ const Banner = () => {
         return (
             <div className="inline-block">
                 
-                <Image src="/burger.png" className="hover:scale-95 translate-transform duration-500" alt="" width="500" height="500" />
+                <Image src="/burger.png" className="hover:scale-95 translate-transform duration-500 -ml-20" alt="" width="500" height="500" />
                 <div className="relative group flex">
 
                     <div className="ml-4">
