@@ -99,31 +99,9 @@ const Fvideo = () => {
                 className="relative "
             >
 
-                {!isHovered2 && (
-                    <Image
-                        src="/burgerBun.png" // The path to your placeholder image
-                        alt="Video placeholder"
-                        width="300"
-                        height="300"
-                    // style={{ position: 'absolute', objectFit: 'cover' }}
-                    />
-
-                )}
-                <video
-                    ref={videoRef2}
-                    src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
-                    width="300"
-                    height="300"
-                    type="video/mp4"
-                    muted // Ensure video is muted for autoplay
-                    style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
-
-                ></video>
-
-
                 {/* .................................................................... */}
                 <div
-                    className="relative bottom-[72px] left-0 w-[110%] bg-white overflow-hidden"
+                    className="absolute bottom-5 left-1 w-[104%] bg-white overflow-hidden"
                     style={{
                         transform: 'rotate(10deg)',
                         // transformOrigin: 'top left',  // Adjust transform origin
@@ -138,6 +116,50 @@ const Fvideo = () => {
                         <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
                     </div>
                 </div>
+
+                {/* .................................................................... */}
+
+                {!isHovered2 && (
+                    <div>
+
+                        <Image
+                            src="/burgerBun.png" // The path to your placeholder image
+                            alt="Video placeholder"
+                            width="300"
+                            height="300"
+                        // style={{ position: 'absolute', objectFit: 'cover' }}
+                        />
+
+                    </div>
+                )}
+
+                <video
+                    ref={videoRef2}
+                    src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
+                    width="300"
+                    height="300"
+                    type="video/mp4"
+                    muted // Ensure video is muted for autoplay
+                    style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
+
+                ></video>
+
+
+                {/* .................................................................... */}
+                {/* <div
+                    className="relative bottom-[72px] left-0 w-[110%] bg-white overflow-hidden"
+                    style={{
+                        transform: 'rotate(10deg)',
+                        marginLeft: '-5%',
+                    }}
+                >
+                    <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
+                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                    </div>
+                </div> */}
 
                 {/* .................................................................... */}
 
