@@ -47,3 +47,6 @@ body {
 }
 
 
+body {
+  overflow-y: hidden;
+}
