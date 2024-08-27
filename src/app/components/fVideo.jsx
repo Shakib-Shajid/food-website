@@ -65,111 +65,115 @@ const Fvideo = () => {
     };
 
     return (
-        <div className='grid grid-cols-3 ml-10  w-10/12 gap-5'>
-            {/* First video container */}
-            <div
-                onMouseEnter={handleMouseEnter1}
-                onMouseLeave={handleMouseLeave1}
-                className="relative "
-            >
-                {!isHovered1 && (
-                    <Image
-                        src="/woman.jpg" // The path to your placeholder image
-                        alt="Video placeholder"
-                        width="300"
-                        height="300"
-                    // style={{ position: 'absolute', objectFit: 'cover' }}
-                    />
-                )}
-                <video
-                    ref={videoRef1}
-                    src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
-                    width="300"
-                    height="300"
-                    type="video/mp4"
-                    muted // Ensure video is muted for autoplay
-                    style={{ position: 'absolute', display: isHovered1 ? 'block' : 'none' }}
-                ></video>
-            </div>
+        <div className='relative'>
 
-            {/* Second video container */}
-            <div
-                onMouseEnter={handleMouseEnter2}
-                onMouseLeave={handleMouseLeave2}
-                className="relative "
-            >
-
-                {/* .................................................................... */}
+            <div className='grid grid-cols-3 ml-10  w-10/12 gap-5'>
+                {/* First video container */}
                 <div
-                    className="absolute bottom-5 left-1 w-[104%] bg-white overflow-hidden"
-                    style={{
-                        transform: 'rotate(10deg)',
-                        // transformOrigin: 'top left',  // Adjust transform origin
-                        marginLeft: '-5%',
-                    }}
+                    onMouseEnter={handleMouseEnter1}
+                    onMouseLeave={handleMouseLeave1}
+                    className="relative "
                 >
-                    <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
-                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
-                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
-                        {/* Repeat the content to ensure continuous scrolling */}
-                        <span className="text-red-600 font-bold text-5xl">VICIO</span>
-                        <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
-                    </div>
-                </div>
-
-                {/* .................................................................... */}
-
-                {!isHovered2 && (
-                    <div>
-
+                    {!isHovered1 && (
                         <Image
-                            src="/burgerBun.png" // The path to your placeholder image
+                            src="/woman.jpg" // The path to your placeholder image
                             alt="Video placeholder"
                             width="300"
                             height="300"
                         // style={{ position: 'absolute', objectFit: 'cover' }}
                         />
-
-                    </div>
-                )}
-
-                <video
-                    ref={videoRef2}
-                    src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
-                    width="300"
-                    height="300"
-                    type="video/mp4"
-                    muted // Ensure video is muted for autoplay
-                    style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
-
-                ></video>
-
-            </div>
-
-            {/* third video container */}
-            <div
-                onMouseEnter={handleMouseEnter3}
-                onMouseLeave={handleMouseLeave3}
-                className="relative "
-            >
-                {!isHovered3 && (
-                    <Image
-                        src="/man.png" // The path to your placeholder image
-                        alt="Video placeholder"
+                    )}
+                    <video
+                        ref={videoRef1}
+                        src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
                         width="300"
                         height="300"
-                    />
-                )}
-                <video
-                    ref={videoRef3}
-                    src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/650c390df2891a9386c9989e_VICIO-Web-03-v2-transcode.mp4"
-                    width="300"
-                    height="300"
-                    type="video/mp4"
-                    muted // Ensure video is muted for autoplay
-                    style={{ position: 'absolute', display: isHovered3 ? 'block' : 'none' }}
-                ></video>
+                        type="video/mp4"
+                        muted // Ensure video is muted for autoplay
+                        style={{ position: 'absolute', display: isHovered1 ? 'block' : 'none' }}
+                    ></video>
+                </div>
+
+                {/* Second video container */}
+                <div
+                    onMouseEnter={handleMouseEnter2}
+                    onMouseLeave={handleMouseLeave2}
+                    className="relative "
+                >
+
+                    {/* .................................................................... */}
+                    <div
+                        className="absolute bottom-5 left-1 w-[104%] bg-white overflow-hidden"
+                        style={{
+                            transform: 'rotate(10deg)',
+                            // transformOrigin: 'top left',  // Adjust transform origin
+                            marginLeft: '-5%',
+                        }}
+                    >
+                        <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
+                            <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                            <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                            {/* Repeat the content to ensure continuous scrolling */}
+                            <span className="text-red-600 font-bold text-5xl">VICIO</span>
+                            <span className="font-bold text-5xl slanted-text text-transparent [-webkit-text-stroke:2px_red]">VICIO</span>
+                        </div>
+                    </div>
+
+                    {/* .................................................................... */}
+
+                    {!isHovered2 && (
+                        <div>
+
+                            <Image
+                                src="/burgerBun.png" // The path to your placeholder image
+                                alt="Video placeholder"
+                                width="300"
+                                height="300"
+                            // style={{ position: 'absolute', objectFit: 'cover' }}
+                            />
+
+                        </div>
+                    )}
+
+                    <video
+                        ref={videoRef2}
+                        src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
+                        width="300"
+                        height="300"
+                        type="video/mp4"
+                        muted // Ensure video is muted for autoplay
+                        style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
+
+                    ></video>
+
+                </div>
+
+                {/* third video container */}
+                <div
+                    onMouseEnter={handleMouseEnter3}
+                    onMouseLeave={handleMouseLeave3}
+                    className="relative "
+                >
+                    {!isHovered3 && (
+                        <Image
+                            src="/man.png" // The path to your placeholder image
+                            alt="Video placeholder"
+                            width="300"
+                            height="300"
+                        />
+                    )}
+                    <video
+                        ref={videoRef3}
+                        src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/650c390df2891a9386c9989e_VICIO-Web-03-v2-transcode.mp4"
+                        width="300"
+                        height="300"
+                        type="video/mp4"
+                        muted // Ensure video is muted for autoplay
+                        style={{ position: 'absolute', display: isHovered3 ? 'block' : 'none' }}
+                    ></video>
+                </div>
             </div>
+
         </div>
     );
 };
