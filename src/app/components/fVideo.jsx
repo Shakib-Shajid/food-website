@@ -121,28 +121,15 @@ const Fvideo = () => {
 
                     {/* .................................................................... */}
 
-                    {!isHovered2 && (
-                        <div>
-
-                            <Image
-                                src="/burgerBun.png" // The path to your placeholder image
-                                alt="Video placeholder"
-                                width="300"
-                                height="300"
-                            // style={{ position: 'absolute', objectFit: 'cover' }}
-                            />
-
-                        </div>
-                    )}
-
+                    
                     <video
-                        ref={videoRef2}
                         src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
                         width="300"
                         height="300"
                         type="video/mp4"
+                        autoPlay
                         muted // Ensure video is muted for autoplay
-                        style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
+                        // style={{ position: 'absolute', display: isHovered2 ? 'block' : 'none' }}
 
                     ></video>
 

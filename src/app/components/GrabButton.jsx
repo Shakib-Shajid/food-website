@@ -7,19 +7,19 @@ const DraggableButton = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const buttonRef = useRef(null);
 
-      useEffect(() => {
+    useEffect(() => {
 
         // Calculate initial position to center the button
         if (buttonRef.current) {
-          const buttonWidth = buttonRef.current.offsetWidth;
-          const buttonHeight = buttonRef.current.offsetHeight;
-          //   window.innerWidth 
-          const centerX = 950 / 2 - buttonWidth / 2;
-          const centerY = 900 / 3 - buttonHeight / 2;
-        //   window.innerHeight
-          setPosition({ x: centerX, y: centerY });
+            const buttonWidth = buttonRef.current.offsetWidth;
+            const buttonHeight = buttonRef.current.offsetHeight;
+            //   window.innerWidth 
+            const centerX = 950 / 2 - buttonWidth / 2;
+            const centerY = 900 / 3 - buttonHeight / 2;
+            //   window.innerHeight
+            setPosition({ x: centerX, y: centerY });
         }
-      }, []);
+    }, []);
 
 
 
@@ -69,7 +69,7 @@ const DraggableButton = () => {
                 top: `${position.y}px`,
                 position: 'absolute',
                 cursor: isDragging ? 'grabbing' : 'grab', // Direct CSS style for the cursor
-              }}
+            }}
             className={`cursor-${isDragging ? 'grabbing' : 'grab'} bg-black text-red-600 text-5xl rounded-xl font-bold py-2 px-4 shadow-lg -rotate-[24deg]`}
         >
             VICIO

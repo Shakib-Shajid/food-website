@@ -21,17 +21,17 @@ const Homepage = () => {
 
                 <span className="absolute left-0 top-0  transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                     <div className="relative">
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute -top-1 " />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute bottom-2 left-[88px]" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute top-1 left-[178px]" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute top-8 left-[336px]" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute -top-2 " />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute bottom-4 left-24" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute -top-1 left-[178px]" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute top-8 left-[345px]" />
                         <h1 className="text-9xl font-extrabold ">VICIO CITIES</h1>
 
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[328px] bottom-7" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[198px] top-2" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-36 bottom-7" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[76px] bottom-16" />
-                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute -right-1 bottom-4" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[355px] bottom-[33px]" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[216px] -top-1" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-40 bottom-7" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-[88px] bottom-[70px]" />
+                        <Image src="/fire.gif" width="24" height="24" alt="" className="absolute right-0 bottom-7" />
 
 
                     </div>

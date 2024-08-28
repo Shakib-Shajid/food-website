@@ -3,6 +3,9 @@ import GrabButton from "./components/GrabButton";
 import Homepage from "./components/Homepage";
 import BagImg from "./components/BagImg";
 import ORcode from "./components/QRcode";
+import About from "./components/About";
+import ShoeBarCode from "./components/ShoeBarCode";
+import FAQ from "./components/FAQ";
 
 
 const page = () => {
@@ -13,14 +16,11 @@ const page = () => {
         <Homepage />
         <GrabButton />
       </div>
-      <div className="flex-shrink-0 w-screen flex ">
+      <div className="flex-shrink-0 flex ">
         <BagImg />
         <ORcode />
-
-        <p>this is second part</p>
-      </div>
-      <div className="flex-shrink-0 w-screen flex ">
-        <p>this is third part</p>
+        <About />
+        <ShoeBarCode />
       </div>
     </>
   );
