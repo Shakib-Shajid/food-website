@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
+import Text from "./Text";
 
 const About = () => {
     return (
@@ -33,11 +34,38 @@ const About = () => {
 
             </div>
 
-            <div className="flex justify-end absolute -right-44 "> 
+            <div className="flex justify-end absolute -right-44 z-10">
                 <Image src="/burgerHalf.png" width="300" height="300" className="h-96 w-80" alt="" />
+            </div>
+            <div className="absolute overflow-hidden bottom-40 -left-32">
+                {/* <Text /> */}
+
+                {/* .............................................................................. */}
+                <div className="relative bg-white overflow-hidden w-[690px]">
+                    <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
+                        <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
+                        {/* Repeat the content to ensure continuous scrolling */}
+                        <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
+                    </div>
+                </div>
+                {/* .............................................................................. */}
+
+
+
+            </div>
+            <div className="absolute text-[8px] overflow-hidden bottom-32 -left-32 flex gap-5 w-[660px]">
+                <div>
+                    <p className="">FAST, GOOD & LOUD 
+                        ESTO ES VICIO.</p>
+                </div> 
+                <div className=" w-full text-right">
+                    <p className="uppercase font-bold">@ganasdevicio</p>
+
+                </div>
             </div>
         </div>
     );
 };
 
 export default About;
+
