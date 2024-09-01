@@ -4,8 +4,8 @@ import Text from "./Text";
 
 const About = () => {
     return (
-        <div className="relative">
-            <div className="relative inline-block overflow-hidden group  -left-28 -bottom-52">
+        <div className="relative ">
+            <div className="relative inline-block overflow-hidden group -left-28 -bottom-52">
 
 
                 <span className="block transition-transform duration-300 ease-in-out group-hover:translate-y-full">

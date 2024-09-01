@@ -65,9 +65,9 @@ const Fvideo = () => {
     };
 
     return (
-        <div className='relative'>
+        <div className='relative '>
 
-            <div className='grid grid-cols-3 ml-10  w-10/12 gap-5'>
+            <div className='grid grid-cols-3 gap-3'>
                 {/* First video container */}
                 <div
                     onMouseEnter={handleMouseEnter1}
@@ -78,16 +78,16 @@ const Fvideo = () => {
                         <Image
                             src="/woman.jpg" // The path to your placeholder image
                             alt="Video placeholder"
-                            width="300"
-                            height="300"
+                            width="250"
+                            height="250"
                         // style={{ position: 'absolute', objectFit: 'cover' }}
                         />
                     )}
                     <video
                         ref={videoRef1}
                         src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
-                        width="300"
-                        height="300"
+                        width="250"
+                        height="250"
                         type="video/mp4"
                         muted // Ensure video is muted for autoplay
                         style={{ position: 'absolute', display: isHovered1 ? 'block' : 'none' }}
@@ -124,8 +124,8 @@ const Fvideo = () => {
                     
                     <video
                         src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64aeae4d44364ffd96bf696a_VICIO-Web-01-transcode.mp4"
-                        width="300"
-                        height="300"
+                        width="250"
+                        height="250"
                         type="video/mp4"
                         autoPlay
                         muted // Ensure video is muted for autoplay
@@ -145,15 +145,15 @@ const Fvideo = () => {
                         <Image
                             src="/man.png" // The path to your placeholder image
                             alt="Video placeholder"
-                            width="300"
-                            height="300"
+                            width="250"
+                            height="250"
                         />
                     )}
                     <video
                         ref={videoRef3}
                         src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/650c390df2891a9386c9989e_VICIO-Web-03-v2-transcode.mp4"
-                        width="300"
-                        height="300"
+                        width="250"
+                        height="250"
                         type="video/mp4"
                         muted // Ensure video is muted for autoplay
                         style={{ position: 'absolute', display: isHovered3 ? 'block' : 'none' }}

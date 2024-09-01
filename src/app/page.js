@@ -5,8 +5,6 @@ import BagImg from "./components/BagImg";
 import ORcode from "./components/QRcode";
 import About from "./components/About";
 import ShoeBarCode from "./components/ShoeBarCode";
-import FAQ from "./components/FAQ";
-import Text from "./components/Text";
 
 
 const page = () => {
@@ -22,7 +20,6 @@ const page = () => {
         <ORcode />
         <About />
         <ShoeBarCode />
-        {/* <Text /> */}
       </div>
     </>
   );

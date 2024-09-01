@@ -24,18 +24,18 @@ const Banner = () => {
 
                 <div className="relative inline-block overflow-hidden group ">
                     {/* Original Text */}
-                    <span className="text-7xl font-bold  ml-5 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
+                    <span className="text-7xl font-bold  ml-3 mr-2 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
                         COLLECTION
                     </span>
 
                     {/* Hover Text */}
-                    <span className="text-7xl font-bold  ml-5 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                    <span className="text-7xl font-bold  ml-3 mr-2 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                         COLLECTION
                     </span>
                 </div>
 
             </div>
-            <p className="text-xs font-bold text-end ">AQUÍ TIENES NUESTRO MENÚ</p>
+            <p className="text-xs font-bold text-end  mr-3">AQUÍ TIENES NUESTRO MENÚ</p>
             <p className="text-xs ml-4">
                 VICIO Originals/La Pollos/BBQ Bacon Cheeseburger/ <br />
                 Vegan Truffle Burger/Cheeseburger Iberica/ Vegan Burger/<br />
