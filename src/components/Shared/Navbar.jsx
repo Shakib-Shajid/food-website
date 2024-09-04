@@ -3,7 +3,7 @@ const Navbar = () => {
     return (
             <div className="navbar">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">VICIO</a>
+                    <a className="btn btn-ghost text-2xl font-bold">VICIO</a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">

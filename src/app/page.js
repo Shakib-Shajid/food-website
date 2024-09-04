@@ -1,10 +1,10 @@
-import Banner from "./components/Banner";
-import GrabButton from "./components/GrabButton";
-import Homepage from "./components/Homepage";
-import BagImg from "./components/BagImg";
-import ORcode from "./components/QRcode";
-import About from "./components/About";
-import ShoeBarCode from "./components/ShoeBarCode";
+import Banner from "../components/Banner";
+import GrabButton from "../components/GrabButton";
+import Homepage from "../components/Homepage";
+import BagImg from "../components/BagImg";
+import ORcode from "../components/QRcode";
+import About from "../components/About";
+import ShoeBarCode from "../components/ShoeBarCode";
 
 
 const page = () => {

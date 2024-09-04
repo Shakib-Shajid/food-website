@@ -1,9 +1,9 @@
 
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Shared/Navbar";
-import Footer from "./components/Shared/Footer";
-import HorizontalScrollWrapper from "./components/HorizontalScrollWrapper"; // Import the client component
+import Navbar from "../components/Shared/Navbar";
+import Footer from "../components/Shared/Footer";
+import HorizontalScrollWrapper from "../components/HorizontalScrollWrapper"; // Import the client component
 
 const inter = Inter({ subsets: ["latin"] });
 
