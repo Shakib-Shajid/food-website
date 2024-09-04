@@ -1,3 +1,4 @@
+import ProductThird from "@/components/ProductThird";
 import BurgerMiddle from "@/components/BurgerMiddle";
 import ProductFirst from "@/components/ProductFirst";
 import ProductSecond from "@/components/ProductSecond";
@@ -26,6 +27,9 @@ const page = () => {
                 {/* ProductSecond Component */}
                 <div className="h-full flex-shrink-0 ">
                     <ProductSecond />
+                </div>
+                <div className="h-full flex-shrink-0 ">
+                    <ProductThird />
                 </div>
             </div>
         </div>
