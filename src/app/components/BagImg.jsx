@@ -25,7 +25,7 @@ const BagImg = () => {
           width="330"
           height="350"
           alt="Food Bag"
-          className='absolute top-[156px] -left-10 z-40'
+          className='absolute top-[156px] -left-10 z-30'
         />
 
         {/* Second Image positioned on top of the first image */}
