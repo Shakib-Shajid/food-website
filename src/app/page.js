@@ -10,17 +10,17 @@ import ShoeBarCode from "../components/ShoeBarCode";
 const page = () => {
   return (
     <>
-      <div className="flex-shrink-0 w-screen flex">
-        <Banner />
-        <Homepage />
-        <GrabButton />
-      </div>
-      <div className="flex-shrink-0 flex ">
-        <BagImg />
-        <ORcode />
-        <About />
-        <ShoeBarCode />
-      </div>
+        <div className="flex-shrink-0 w-screen flex">
+          <Banner />
+          <Homepage />
+          <GrabButton />
+        </div>
+        <div className="flex-shrink-0 flex ">
+          <BagImg />
+          <ORcode />
+          <About />
+          <ShoeBarCode />
+        </div>
     </>
   );
 };

@@ -1,9 +1,10 @@
+import Link from "next/link";
 
 const Navbar = () => {
     return (
             <div className="navbar">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-2xl font-bold">VICIO</a>
+                    <p className="btn btn-ghost text-2xl font-bold"><Link href="/">VICIO</Link></p>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">

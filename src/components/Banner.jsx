@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
 const Banner = () => {
 
@@ -7,7 +8,7 @@ const Banner = () => {
     return (
         <div className="inline-block">
 
-            <Image src="/burger.png" className="hover:scale-95 translate-transform duration-500 -ml-20" alt="" width="500" height="500" />
+            <Link href="/product"><Image src="/burger.png" className="hover:scale-95 translate-transform duration-500 -ml-20" alt="" width="500" height="500" /></Link>
             <div className="relative group flex">
 
                 <div className="ml-4">
@@ -43,7 +44,7 @@ const Banner = () => {
                 Single Burger/
             </p>
 
-            
+
         </div>
     );
 };
