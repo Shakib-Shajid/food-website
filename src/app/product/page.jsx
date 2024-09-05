@@ -7,13 +7,8 @@ import BurgersCategory from "@/components/BurgersCategory";
 
 const page = () => {
     return (
-        // <div className="flex flex-row w-screen border-blue-600 border-2 overflow-x-auto">
-        //     <Product_first />
-        //     <BurgerMiddle />
-        //     <ProductSecond />
-        // </div>
 
-        <div className="w-screen overflow-x-auto ">
+        <div className="w-screen overflow-x-auto relative overflow-y-hidden ">
             <div className="flex">
                 {/* ProductFirst Component */}
                 <div className=" flex-shrink-0 ">
@@ -37,6 +32,7 @@ const page = () => {
                 <div className="h-full flex-shrink-0 ">
                     <BurgersCategory />
                 </div>
+
             </div>
         </div>
 
