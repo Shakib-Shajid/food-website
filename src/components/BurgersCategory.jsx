@@ -35,25 +35,32 @@ const BurgersCategory = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="flex items-center gap-1 absolute rotate-90 -right-52 text-gray-400 top-52 uppercase">
+                <p className="text-xs">vicio burger club </p>
+                <p className="text-xl font-bold">V</p>
+                <p className="text-xs">best burger quality </p>
+            </div>
+
             <p className="text-[8px] text-end my-4">CHEESEBURGER / BACON CHEESEBURGER / BBQ BACON CHEESEBURGER / <br />
                 VICIO ORIGINALS /  CHEESEBURGER TRUFADA / CHEESEBURGER IBÉRICA / <br />
                 POLLOS HERMANOS / VEGAN / VEGAN TRUFFLE BURGER</p>
 
 
 
-                <div className="absolute left-0 ">
+            <div className="absolute left-0 ">
 
-                    <div className=" bg-white overflow-hidden h-full w-[500px] mt-20 "  style={{
-                            transform: 'rotate(-15deg)'
-                        }}>
-                        <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
-                            <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
-                            {/* Repeat the content to ensure continuous scrolling */}
-                            <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
-                        </div>
+                <div className=" bg-white overflow-hidden h-full w-[500px] mt-20 " style={{
+                    transform: 'rotate(-15deg)'
+                }}>
+                    <div className="marquee-content flex space-x-3 animate-marquee whitespace-nowrap ">
+                        <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
+                        {/* Repeat the content to ensure continuous scrolling */}
+                        <span className="text-red-600 font-bold text-5xl">VICIO - BURGER CLUB- <span className="bg-red-600 text-red-600">.........</span></span>
                     </div>
-
                 </div>
+
+            </div>
 
 
         </div>
