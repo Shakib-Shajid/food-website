@@ -6,7 +6,7 @@ import { IoPlayCircleOutline } from "react-icons/io5"
 
 const ProductFirst = () => {
     return (
-        <div className="flex flex-col justify-between ml-7 h-screen relative">
+        <div className="flex flex-col justify-between ml-7 h-full border-red-600 border-2">
             <div className="space-y-4">
                 <h2 className="text-7xl font-bold uppercase">Cheeseburger <br /> Trufada</h2>
                 <div className="group flex items-center font-bold uppercase ">
@@ -17,7 +17,7 @@ const ProductFirst = () => {
                 <small className="underline uppercase font-bold ">Alérgenos</small>
             </div>
 
-            <div className="flex gap-3 ">
+            <div className="flex gap-3">
                 <div className="group">
                     <IoArrowForward className="text-2xl rotate-45 group-hover:rotate-[135deg] transform transition-transform duration-300"/>
                     <Image src="/product_1.png" width="120" height="120" alt="" />

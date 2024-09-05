@@ -2,6 +2,7 @@ import ProductThird from "@/components/ProductThird";
 import BurgerMiddle from "@/components/BurgerMiddle";
 import ProductFirst from "@/components/ProductFirst";
 import ProductSecond from "@/components/ProductSecond";
+import BurgersCategory from "@/components/BurgersCategory";
 
 
 const page = () => {
@@ -12,10 +13,10 @@ const page = () => {
         //     <ProductSecond />
         // </div>
 
-        <div className="w-screen h-screen overflow-x-auto">
-            <div className="flex h-full">
+        <div className="w-screen overflow-x-auto ">
+            <div className="flex">
                 {/* ProductFirst Component */}
-                <div className="h-full flex-shrink-0 ">
+                <div className=" flex-shrink-0 ">
                     <ProductFirst />
                 </div>
 
@@ -27,9 +28,14 @@ const page = () => {
                 {/* ProductSecond Component */}
                 <div className="h-full flex-shrink-0 ">
                     <ProductSecond />
+
                 </div>
                 <div className="h-full flex-shrink-0 ">
                     <ProductThird />
+                </div>
+
+                <div className="h-full flex-shrink-0 ">
+                    <BurgersCategory />
                 </div>
             </div>
         </div>
