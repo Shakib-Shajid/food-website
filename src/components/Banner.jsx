@@ -23,17 +23,19 @@ const Banner = () => {
                     <Image src="/map-world.png" width="50" height="50" alt="" />
                 </div>
 
-                <div className="relative inline-block overflow-hidden group ">
-                    {/* Original Text */}
-                    <span className="text-7xl font-bold  ml-3 mr-2 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
-                        COLLECTION
-                    </span>
+                <Link href="/collection">
+                    <div className="relative inline-block overflow-hidden group ">
+                        {/* Original Text */}
+                        <span className="text-7xl font-bold  ml-3 mr-2 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
+                            COLLECTION
+                        </span>
 
-                    {/* Hover Text */}
-                    <span className="text-7xl font-bold  ml-3 mr-2 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
-                        COLLECTION
-                    </span>
-                </div>
+                        {/* Hover Text */}
+                        <span className="text-7xl font-bold  ml-3 mr-2 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                            COLLECTION
+                        </span>
+                    </div>
+                </Link>
 
             </div>
             <p className="text-xs font-bold text-end  mr-3">AQUÍ TIENES NUESTRO MENÚ</p>
