@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="navbar-end bg-white">
                     <div className="hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            <li><a>PRESENT</a></li>
+                            <li><Link href="/vicio.pdf" target="_self">PRESENT</Link></li>
                             <li>
                                 <div className="dropdown dropdown-top dropdown-hover">
                                     <span tabIndex={0} >Asuntos legales</span>
