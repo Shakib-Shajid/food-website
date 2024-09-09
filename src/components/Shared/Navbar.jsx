@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -8,8 +9,9 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Link</a></li>
-                        <li className="text-xs"><a>The hottest burger of today is <br /> BBQ Bacon Cheeseburger</a></li>
+                        <li><Image src="/fire_icon.png" width="70" height="70" alt="" /></li>
+                        {/* <li className="text-xs"><p className="uppercase flex flex-col">The hottest burger of today is <span className="self-end">BBQ Bacon Cheeseburger</span></p></li> */}
+                        <li className="text-xs"><p className="uppercase flex flex-col">The hottest burger of today is <span className="self-end">BBQ Bacon Cheeseburger</span></p></li>
                         <li><Link href="/pida-ya" className="rounded-full border-black border-2 hover:bg-black hover:text-white ">¡Pide ya!</Link></li>
                     </ul>
                 </div>
@@ -19,3 +21,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+        
