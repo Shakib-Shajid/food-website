@@ -10,7 +10,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li><a>Link</a></li>
                         <li className="text-xs"><a>The hottest burger of today is <br /> BBQ Bacon Cheeseburger</a></li>
-                        <li><button className="rounded-ss-btn border-black border-2 hover:bg-black hover:text-white">¡Pide ya!</button></li>
+                        <li><Link href="/pida-ya" className="rounded-full border-black border-2 hover:bg-black hover:text-white ">¡Pide ya!</Link></li>
                     </ul>
                 </div>
             </div>

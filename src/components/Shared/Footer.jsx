@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import { FaInstagram } from "react-icons/fa6";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -24,18 +25,18 @@ const Footer = () => {
                         </div>
                         <ul tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>COLLECTION</a></li>
-                            <li><a>VICIO CITIES</a></li>
+                            <li><Link href="/collection">COLLECTION</Link></li>
+                            <li><Link href="/vicio-cities">VICIO CITIES</Link></li>
                             <li><a>CURRA AQUÍ</a></li>
-                            <li><a>FAQS</a></li>
+                            <li><Link href="/faqs">FAQS</Link></li>
                         </ul>
                     </div>
-                    <div className="btn btn-ghost text-xl hidden lg:flex">
+                    <div className="font-bold ml-2 text-xl hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                            <li><a>COLLECTION</a></li>
-                            <li><a>VICIO CITIES</a></li>
+                            <li><Link href="/collection">COLLECTION</Link></li>
+                            <li><Link href="/vicio-cities">VICIO CITIES</Link></li>
                             <li><a>CURRA AQUÍ</a></li>
-                            <li><a>FAQS</a></li>
+                            <li><Link href="/faqs">FAQS</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -68,10 +69,12 @@ const Footer = () => {
                                 </div>
                             </li>
 
-                            <div className="group mx-3">
-                                <FaInstagram className="text-base transform transition-transform duration-500 group-hover:rotate-90" />
-                                <MdArrowOutward className="text-base transform transition-transform duration-500 group-hover:-rotate-180" />
-                            </div>
+                            <Link target="_blank" href="https://www.instagram.com/">
+                                <div className="group mx-3">
+                                    <FaInstagram className="text-base transform transition-transform duration-500 group-hover:rotate-90" />
+                                    <MdArrowOutward className="text-base transform transition-transform duration-500 group-hover:-rotate-180" />
+                                </div>
+                            </Link>
                         </ul>
                     </div>
                 </div>

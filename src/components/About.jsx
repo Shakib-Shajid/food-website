@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FiArrowUpRight } from "react-icons/fi";
-import Text from "./Text";
 import Link from "next/link";
 
 const About = () => {
@@ -9,11 +8,11 @@ const About = () => {
             <div className="relative inline-block overflow-hidden group -left-28 -bottom-52">
 
                 <Link href="/about-us">
+                    <FiArrowUpRight className="absolute text-2xl top-0 transform transition-transform group-hover:rotate-90 duration-500" />
                     <span className="block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
                         <h1 className="text-9xl font-extrabold">ABOUT US</h1>
                     </span>
 
-                    <FiArrowUpRight className="absolute text-2xl top-0 transform transition-transform group-hover:rotate-90 duration-500" />
 
 
                     <span className="absolute left-0 top-0  transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
