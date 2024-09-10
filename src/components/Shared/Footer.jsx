@@ -27,7 +27,7 @@ const Footer = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             <li><Link href="/collection">COLLECTION</Link></li>
                             <li><Link href="/vicio-cities">VICIO CITIES</Link></li>
-                            <li><a>CURRA AQUÍ</a></li>
+                            <li><Link href="/curra-aqui">CURRA AQUÍ</Link></li>
                             <li><Link href="/faqs">FAQS</Link></li>
                         </ul>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <ul className="menu menu-horizontal px-1">
                             <li><Link href="/collection">COLLECTION</Link></li>
                             <li><Link href="/vicio-cities">VICIO CITIES</Link></li>
-                            <li><a>CURRA AQUÍ</a></li>
+                            <li><Link href="/curra-aqui">CURRA AQUÍ</Link></li>
                             <li><Link href="/faqs">FAQS</Link></li>
                         </ul>
                     </div>
