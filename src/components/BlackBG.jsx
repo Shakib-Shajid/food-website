@@ -9,7 +9,6 @@ const BlackBG = () => {
     return (
         <div>
             <div className="flex-shrink-0 w-screen bg-black text-white p-40 ">
-
                 <div className="uppercase font-bold text-xl relative space-y-3">
                     <Image src="/people.png" width="100" height="100" alt="" className="bg-white absolute left-[300px] -mt-1" />
                     <p>SI HAS LLEGADO HASTA AQUí</p>

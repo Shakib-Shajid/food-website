@@ -9,7 +9,7 @@ const page = () => {
 
            <CollectionCarousel />
 
-            <p>Burgers sencillas, pero buscando la excelencia. No sobra <br /> nada. No falta nada. All hotness. Y no solo pasa con las <br /> burgers, también con todo lo que gira a su alrededor.</p>
+            <p className="text-xs">Burgers sencillas, pero buscando la excelencia. No sobra <br /> nada. No falta nada. All hotness. Y no solo pasa con las <br /> burgers, también con todo lo que gira a su alrededor.</p>
         </div>
     );
 };
