@@ -4,30 +4,30 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const page = () => {
     return (
-        <div className='ml-5 space-y-5 relative'>
-            <h2 className='text-5xl font-bold'>A DOMICILIO</h2>
+        <div className='md:ml-5 space-y-5 relative w-[280px] md:w-auto mx-auto'>
+            <h2 className='text-3xl md:text-5xl font-bold'>A DOMICILIO</h2>
 
-            <div>
-                <select className="border border-black bg-transparent select select-bordered w-2/4 mr-3">
-                <option selected>Barcelona</option>
-                <option>Madrid</option>
-                <option>Palma de Mallorca</option>
-                <option>Sevilla</option>
-                <option>Terrassa</option>
-                <option>Málaga</option>
-                <option>Sant Cugat</option>
-                <option>Sabadell</option>
-                <option>Valencia </option>
-                <option>Alicante </option>
-                <option>Zaragoza</option>
-            </select>
+            <div className=''>
+                <select className="border border-black bg-transparent select select-bordered w-full md:w-2/4 md:mr-3">
+                    <option selected>Barcelona</option>
+                    <option>Madrid</option>
+                    <option>Palma de Mallorca</option>
+                    <option>Sevilla</option>
+                    <option>Terrassa</option>
+                    <option>Málaga</option>
+                    <option>Sant Cugat</option>
+                    <option>Sabadell</option>
+                    <option>Valencia </option>
+                    <option>Alicante </option>
+                    <option>Zaragoza</option>
+                </select>
 
-            <button className='btn btn-warning w-2/5 rounded-full text-green-600 text-2xl'>Glovo <FaLocationDot className='text-sm'/></button>
+                <button className='btn btn-warning w-full my-2 md:my-0 md:w-2/5 rounded-full text-green-600 text-2xl'>Glovo <FaLocationDot className='text-sm' /></button>
             </div>
 
-            <h2 className='text-5xl font-bold'>PARA RECOGER</h2>
+            <h2 className='text-3xl md:text-5xl font-bold'>PARA RECOGER</h2>
 
-            <div className='flex gap-5'>
+            <div className='space-y-2 md:space-y-0 md:flex gap-5'>
                 <select className="border border-black bg-transparent select select-bordered w-full max-w-xs">
                     <option selected>Barcelona</option>
                     <option>Madrid</option>
@@ -54,9 +54,9 @@ const page = () => {
                     <option>Via Augusta 21, 08006</option>
                 </select>
             </div>
-            <button className='btn btn-error text-white w-2/4 rounded-full '>¡Pide ya!</button>
+            <button className='btn btn-error text-white w-full md:w-2/4 rounded-full '>¡Pide ya!</button>
 
-            <div className="absolute -right-[925px]">
+            <div className="relative md:-right-[925px] hidden md:block">
 
                 <div className=" bg-white overflow-hidden h-full w-[500px] mt-20 " style={{
                     transform: 'rotate(-25deg)'

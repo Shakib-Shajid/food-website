@@ -13,13 +13,13 @@ const page = () => {
       <div className="flex-shrink-0 w-screen md:flex">
         <Banner />
         <Homepage />
-        {/*      <GrabButton />
-        </div>
-        <div className="flex-shrink-0 flex ">
+        <GrabButton />
+      </div>
+      <div className="flex-shrink-0 md:flex ">
           <BagImg />
-          <ORcode />
-          <About />
-          <ShoeBarCode />     */}
+        <ORcode />
+        <About />
+        <ShoeBarCode />   
       </div>
     </>
   );

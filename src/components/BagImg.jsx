@@ -2,11 +2,12 @@
 
 import Image from 'next/image';
 import React from 'react';
+import { FiArrowUpRight } from 'react-icons/fi';
 
 const BagImg = () => {
   return (
     <div className='relative'>
-      <div className='relative -ml-24' style={{ width: '300px', height: '300px' }}>
+      <div className='relative -ml-24 hidden md:block' style={{ width: '300px', height: '300px' }}>
         {/* Video positioned in the top left and behind the image */}
         <video
           src="https://cdn.prod.website-files.com/6234368c451e783a0caa24f2/64affcf530bd466bf47478ec_VICIO_Logo-Web-transcode.mp4"
@@ -35,11 +36,12 @@ const BagImg = () => {
             width="160"
             height="160"
             alt=""
-            className="absolute -left-20 top-16 z-50"
+            className="absolute -left-20 top-16 z-50 hidden md:block"
           />
         </div>
 
       </div>
+
 
     </div>
   );
