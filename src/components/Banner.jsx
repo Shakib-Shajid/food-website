@@ -16,7 +16,7 @@ const Banner = () => {
 
                     <div className="ml-4">
                         <div className="flex justify-end">
-                            <FiArrowUpRight className="absolute text-2xl group-hover:rotate-90 transition-transform duration-300 " /> <br />
+                            <FiArrowUpRight className="absolute text-2xl group-hover:rotate-90 transition-transform duration-300" /> <br />
 
                         </div>
                         <div className="relative my-[2px]">
@@ -31,12 +31,12 @@ const Banner = () => {
                     <div className="relative inline-block overflow-hidden group ">
                         <p className="text-[8px] font-bold text-end mr-3 visible md:hidden">AQUÍ TIENES NUESTRO MENÚ</p>
                         {/* Original Text */}
-                        <span className="text-4xl lg:text-7xl font-bold  ml-3 mr-2 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
+                        <span className="text-4xl md:text-7xl font-bold  ml-3 mr-2 block transition-transform duration-300 ease-in-out group-hover:translate-y-full">
                             COLLECTION
                         </span>
 
                         {/* Hover Text */}
-                        <span className="text-4xl lg:text-7xl font-bold  ml-3 mr-2 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                        <span className="text-4xl md:text-7xl font-bold  ml-3 mr-2 absolute left-0 top-0 block transform -translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                             COLLECTION
                         </span>
                     </div>
