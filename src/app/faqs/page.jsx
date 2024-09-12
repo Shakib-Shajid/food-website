@@ -26,7 +26,7 @@ const Page = () => {
                 {/* Left Column: Questions */}
                 <div>
                     {/* Title: Vicio Expert Mode */}
-                    <h2 className='text-xl md:text-5xl font-bold uppercase'>
+                    <h2 className='text-5xl font-bold uppercase'>
                         Vicio expert mode <br />
                         MOST ASKED QUESTIONS.
                     </h2>
@@ -35,10 +35,10 @@ const Page = () => {
                             <div
                                 key={q.id}
                                 className={`collapse rounded-full border-black border-2 my-3 w-[420px] 
-                                ${selectedQuestion?.id === q.id ? 'bg-black text-white' : 'bg-transparent text-black'}`}
+                                ${selectedQuestion?.id === q.id ? 'bg-black text-white' : 'bg-white text-black'}`}
                                 onClick={() => setSelectedQuestion(q)}
                             >
-                                <div className="collapse-title text-[13px] md:text-lg font-medium">
+                                <div className="collapse-title text-lg font-medium">
                                     {`${q.id}. ${q.question}`}
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ const Page = () => {
             {selectedQuestion && (
                 <div>
                     <div
-                        className="absolute  bottom-24 right-0 w-2/3 md:w-1/4 rounded-t-lg rounded-l-lg  mr-3 p-4 bg-black text-white transition-all duration-500 transform "
+                        className="absolute  bottom-24 right-0 w-1/4 rounded-t-lg rounded-l-lg  mr-3 p-4 bg-black text-white transition-all duration-500 transform "
                         style={{ animation: "flyIn 0.5s forwards" }}
                     >
                         <p className="text-xs">{selectedQuestion.answer}</p>

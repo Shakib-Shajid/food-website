@@ -9,9 +9,9 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none ">
                     <ul className="menu menu-horizontal">
-                        <li className="p-0 btn-disabled -mr-5 relative  hidden md:block"><Image src="/fire_icon.png" width="70" height="70" alt="" /></li>
-                        <li className="btn-disabled text-xs font-bold hidden md:block"><p className="uppercase flex flex-col">The hottest burger of today is <span className="self-end">BBQ Bacon Cheeseburger</span></p></li>
-                        <li><Link href="/pida-ya" className="rounded-full border-black border-2 hover:bg-black hover:text-white ">¡Pide ya!</Link></li>
+                        <li className="p-0 btn-disabled -mr-5 relative"><Image src="/fire_icon.png" width="70" height="70" alt="" /></li>
+                        <li className="btn-disabled text-xs font-bold"><p className="uppercase flex flex-col">The hottest burger of today is <span className="self-end">BBQ Bacon Cheeseburger</span></p></li>
+                        <li><Link href="/pida-ya" className="btn rounded-full border-black border-2 hover:bg-black hover:text-white ">¡Pide ya!</Link></li>
                     </ul>
                 </div>
             </div>

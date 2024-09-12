@@ -11,7 +11,7 @@ export default function HorizontalScrollWrapper({ children }) {
 
     const handleWheel = (event) => {
       event.preventDefault();
-
+      
       // Smooth horizontal scroll
       scrollContainer.scrollBy({
         left: event.deltaY * 1.5, // Adjust multiplier for speed
@@ -27,7 +27,7 @@ export default function HorizontalScrollWrapper({ children }) {
   return (
     <div
       ref={scrollContainerRef}
-      className="h-[80vh] md:flex md:flex-row md:overflow-x-auto md:overflow-y-hidden"
+      className="h-[80vh] flex flex-row overflow-x-auto overflow-y-hidden"
     >
       {children}
     </div>
