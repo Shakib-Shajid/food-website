@@ -16,10 +16,10 @@ const page = () => {
         <GrabButton />
       </div>
       <div className="flex-shrink-0 md:flex ">
-          <BagImg />
+        <BagImg />
         <ORcode />
         <About />
-        <ShoeBarCode />   
+        <ShoeBarCode />
       </div>
     </>
   );

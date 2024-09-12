@@ -49,7 +49,7 @@ const DraggableButton = () => {
           position: "relative",
           cursor: isDragging ? "grabbing" : "grab",
         }}
-        className="bg-black text-red-600 text-5xl rounded-xl font-bold py-2 px-4 shadow-lg -rotate-[24deg] -left-[1000px] top-48  "
+        className="hidden md:visible bg-black text-red-600 text-5xl rounded-xl font-bold py-2 px-4 shadow-lg -rotate-[24deg] -left-[1000px] top-48  "
       >
         VICIO
       </div>

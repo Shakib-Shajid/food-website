@@ -65,7 +65,7 @@ const Fvideo = () => {
     };
 
     return (
-        <div className='relative'>
+        <div className='relative border-blue-600 border'>
 
             <div className='grid grid-cols-3 gap-3'>
                 {/* First video container */}
