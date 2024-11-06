@@ -10,7 +10,7 @@ import ShoeBarCode from "../components/ShoeBarCode";
 const page = () => {
   return (
     <>
-        <div className="flex-shrink-0 w-screen flex">
+        <div className="flex-shrink-0 w-screen flex ">
           <Banner />
           <Homepage />
           <GrabButton />

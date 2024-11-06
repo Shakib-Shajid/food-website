@@ -18,9 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent,rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -28,8 +26,6 @@ body {
     text-wrap: balance;
   }
 }
-
-
 
 @keyframes marquee {
   0% {
@@ -46,7 +42,13 @@ body {
   animation: marquee 5s linear infinite;
 }
 
-
 body {
   overflow-y: hidden;
+}
+
+
+
+* {
+  -overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
